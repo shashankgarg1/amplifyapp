@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifydd991a17bb754-staging-175433-authRole",
+      "UnauthRoleArn": "arn:aws:iam::136204451777:role/amplify-amplifydd991a17bb754-staging-175433-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::136204451777:role/amplify-amplifydd991a17bb754-staging-175433-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifydd991a17bb754-staging-175433-deployment",
+      "UnauthRoleName": "amplify-amplifydd991a17bb754-staging-175433-unauthRole",
+      "StackName": "amplify-amplifydd991a17bb754-staging-175433",
+      "StackId": "arn:aws:cloudformation:us-east-1:136204451777:stack/amplify-amplifydd991a17bb754-staging-175433/d2f626d0-10cd-11ec-b88d-0e007e135db7",
+      "AmplifyAppId": "d1fk2gv3jekaec"
+    }
+  },
+  "auth": {
+    "amplifyapp5db712e2": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifydd991a17bb754-staging-175433-deployment/amplify-cfn-templates/auth/amplifyapp5db712e2-cloudformation-template.yml",
+        "logicalId": "authamplifyapp5db712e2"
+      },
+      "lastPushTimeStamp": "2021-09-10T17:53:48.712Z",
+      "output": {
+        "UserPoolId": "us-east-1_HPJuIa5ws",
+        "AppClientIDWeb": "5aug334pt27u0i39mt1gpt7l0k",
+        "AppClientID": "2mlp9bm72up8f8pl8agrrarfqp",
+        "IdentityPoolId": "us-east-1:00921877-8e9d-411c-becd-3036de813916",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:136204451777:userpool/us-east-1_HPJuIa5ws",
+        "IdentityPoolName": "amplifyapp5db712e2_identitypool_5db712e2__staging",
+        "UserPoolName": "amplifyapp5db712e2_userpool_5db712e2"
+      },
+      "lastPushDirHash": "ODi90r5CIIpTOt9kx3MgIMqNByM="
+    }
+  }
+}
