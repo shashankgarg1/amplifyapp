@@ -43,7 +43,7 @@
         "IdentityPoolName": "amplifyapp5db712e2_identitypool_5db712e2__staging",
         "UserPoolName": "amplifyapp5db712e2_userpool_5db712e2"
       },
-      "lastPushTimeStamp": "2021-09-11T19:43:38.204Z",
+      "lastPushTimeStamp": "2021-09-13T08:28:54.556Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifydd991a17bb754-staging-175433-deployment/amplify-cfn-templates/auth/amplifyapp5db712e2-cloudformation-template.yml",
         "logicalId": "authamplifyapp5db712e2"
